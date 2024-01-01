@@ -22,8 +22,8 @@ from gensim import parsing, corpora
 #os.environ['HTTPS_PROXY']="fpproxy.in.ril.com:8080"
 today =datetime.today().strftime('%Y%m%d')
 headers = {
-    'X-CleverTap-Account-Id': '877-958-874Z',
-    'X-CleverTap-Passcode': 'SFQ-TEW-CTAL',
+    'X-CleverTap-Account-Id': 'xxx-xxx-xxx',
+    'X-CleverTap-Passcode': 'xxx-xxx-xxx',
     'Content-Type': 'application/json',
 }
 r2 = requests.get("http://cdnsrv.jio.com/jiotv.data.cdn.jio.com...{maskedAPI}.../get/?os=android&devicetype=phone")
